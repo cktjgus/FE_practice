@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Movie</title>
+</head>
+<body>
+  <h1>영화 예매</h1>
+  <div class="container">
+    <div class="movie_time">
+      <h2>예매 시간</h2>
+      <button class="time">14:00~16:00</button>
+      <button class="time">15:00~17:00</button>
+      <button class="time">16:00~18:00</button>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <h2><span id="selectTime"></span>&nbsp;예매하시겠습니까?</h3> 
+        <div class="btn-container">
+          <button id="bookBtn">예매하기</button>
+          <button id="closeBtn" class="closebutton">닫기</button> 
+        </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

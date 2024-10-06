@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>영화 좌석 예매</title>
+</head>
+<body>
+  <h1>좌석 선택</h1>
+  <ul class="showcase">
+    <li>
+      <div class="seat"></div>
+      <small>빈 좌석</small>
+    </li>
+    <li>
+      <div class="seat selected"></div>
+      <small>선택</small>
+    </li>
+    <li>
+      <div class="seat occupied"></div>
+      <small>예매완료</small>
+    </li>
+  </ul>
+  <div class="book-container">
+    <div class="screen"></div>
+    <div class="row">
+      <span>A</span>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <span>B</span>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <span>C</span>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+    </div>
+    <div class="row">
+      <span>D</span>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <span>E</span>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat"></div>
+    </div>
+    <div class="row">
+      <span>F</span>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat"></div>
+      <div class="seat occupied"></div>
+      <div class="seat occupied"></div>
+    </div>
+  </div>
+  <p class="text">선택한 좌석&nbsp;<span id="count" class="text">0석</span>&nbsp;<span id="total" class="text">0원</span></p>
+  <div class="button-container">
+    <button id="bookBtn" class="book">예매하기</button>
+    <button id="clearBtn" class="clear">clear</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
